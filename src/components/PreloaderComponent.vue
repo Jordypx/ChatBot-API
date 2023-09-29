@@ -5,7 +5,7 @@
       class="flex -ml-2 flex-col items-center justify-center absolute w-full h-full bg-white z-9999 ease-out duration-300"
     >
       <div class="mb-24">
-        <h1 class="text-4xl font-bold text-blue-700">TEXTME</h1>
+        <h1 class="text-4xl font-bold text-blue-700">BOTAPI</h1>
         <p class="text-center text-lg ml-4 mt-4 font-semibold font-sans">
           WELCOME...
         </p>
