@@ -208,10 +208,6 @@ label {
     height: 10.7%;
   }
 
-  .chatbox {
-    height: 75.9vh;
-  }
-
   .user-image {
     width: 3rem;
     margin-left: 0.5rem;
@@ -265,5 +261,18 @@ label {
 
   .my_message span {
     left: -3%;
+  }
+}
+
+@media screen and (max-height: 920px) {
+  /* .chatbox {
+    height: 82vh;
+  } */
+  form {
+    margin-top: 1rem;
+  }
+
+  form input {
+    margin-bottom: 1rem;
   }
 }
