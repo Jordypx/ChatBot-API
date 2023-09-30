@@ -259,7 +259,10 @@ export default {
       const postData = {
         message: message,
       };
-      const { data } = await axios.post("http://localhost:8000/chat", postData);
+      const { data } = await axios.post(
+        "https://server-vc46.onrender.com/chat",
+        postData
+      );
       const { response } = data;
       createMessage(response);
     }
