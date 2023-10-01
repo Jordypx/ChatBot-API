@@ -190,14 +190,14 @@
           <input
             v-model="messageContent"
             id="createMessage"
-            class="text-input p-3 rounded-lg text-sm -mt-0.5 border-0"
+            class="text-input p-3 rounded-lg text-sm border-0"
             type="text"
             placeholder="Message..."
           />
 
           <div>
             <img
-              class="send-btn w-8 cursor-pointer mt-2"
+              class="send-btn w-8 cursor-pointer"
               src="../assets/documentsend_104490.png"
               alt=""
               type="submit"
